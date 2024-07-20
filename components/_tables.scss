@@ -1,0 +1,25 @@
+.striped-table {
+    table {
+        @apply min-w-full divide-y divide-gray-200 dark:divide-gray-700;
+
+        thead {
+            @apply bg-gray-50 dark:bg-gray-600;
+
+            th {
+                @apply px-4 py-4 text-start text-sm font-medium text-gray-500 dark:text-gray-200;
+            }
+        }
+
+        tbody {
+            @apply divide-y divide-gray-200 dark:divide-gray-700;
+
+            tr {
+                @apply bg-gray-50 dark:bg-gray-900;
+
+                td {
+                    @apply px-4 py-4 text-sm text-gray-500 dark:text-gray-200;
+                }
+            }
+        }
+    }
+}
