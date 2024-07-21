@@ -10,6 +10,10 @@ a:hover {
     text-decoration: underline;
 }
 
+li.menu-item a:hover {
+    text-decoration: none;
+}
+
 
 // Custom Css Scroll
 .custom-scroll {
