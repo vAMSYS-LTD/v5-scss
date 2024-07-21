@@ -50,6 +50,20 @@
 
 .fi-dropdown-panel {
     @apply bg-white dark:bg-gray-800 shadow rounded-md #{!important};
+    h4 {
+        @apply text-gray-500 dark:text-slate-400 #{!important};
+    }
+}
+
+.fi-ta-filters {
+    h4 {
+        @apply text-gray-500 dark:text-slate-400 #{!important};
+    }
+}
+.fi-fo-field-wrp-label {
+    span {
+        @apply text-gray-500 dark:text-gray-400 #{!important};
+    }
 }
 
 .fi-dropdown-list-item-label {
@@ -58,4 +72,26 @@
 
 .fi-btn-label {
     @apply text-gray-500 dark:text-slate-400 #{!important};
+}
+
+.fi-pagination-item-label {
+    @apply text-gray-500 dark:text-slate-400 #{!important};
+}
+
+.fi-select-input {
+    @apply text-gray-500 dark:text-slate-400 #{!important};
+}
+
+.fi-pagination-overview {
+    @apply text-gray-500 dark:text-slate-400 #{!important};
+}
+
+.fi-input {
+    @apply text-gray-500 dark:text-slate-400 #{!important};
+}
+
+.fi-ta-filter-indicators {
+    span {
+        @apply text-gray-500 dark:text-slate-400 #{!important};
+    }
 }
