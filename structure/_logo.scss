@@ -22,9 +22,7 @@
 }
 
 // Sidenav
-html[data-mode="dark"],
-html[data-menu-color="brand"],
-html[data-menu-color="dark"] {
+html:is(.dark, [data-menu-color="brand"], [data-menu-color="dark"]) {
     .app-menu {
         .logo-box {
             .logo-light {
@@ -38,10 +36,9 @@ html[data-menu-color="dark"] {
     }
 }
 
+
 // Topbar Logo
-html[data-mode="dark"],
-html[data-topbar-color="brand"],
-html[data-topbar-color="dark"] {
+html:is(.dark, [data-topbar-color="brand"], [data-topbar-color="dark"]) {
     .app-header {
         .logo-box {
             .logo-light {
@@ -54,3 +51,4 @@ html[data-topbar-color="dark"] {
         }
     }
 }
+

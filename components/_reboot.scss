@@ -30,7 +30,7 @@ code {
 }
 
 :root {
-    &:is([data-mode="dark"]) {
+    &:is(.dark) {
         color-scheme: dark;
     }
 }
