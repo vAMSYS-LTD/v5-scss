@@ -63,8 +63,9 @@
                 @apply transition-all ms-auto rtl:rotate-180;
 
                 &::before {
-                    content: "\ea6e";
-                    font-family: "remixicon";
+                    content: "\f0da";
+                    font-family: "Font Awesome 5 Pro";
+                    font-weight: 900;
                 }
             }
 
