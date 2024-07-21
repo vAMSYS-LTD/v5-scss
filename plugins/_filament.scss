@@ -123,6 +123,9 @@
         @apply text-gray-500 dark:text-slate-400 #{!important};
     }
 }
+.fi-ac-action {
+    @apply rounded #{!important};
+}
 .fi-ta-actions {
     button {
         @apply rounded #{!important};
