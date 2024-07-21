@@ -5,7 +5,6 @@
 // Font Family
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
 
-
 // ======= Real Time Customistion :root Variable ======= //
 :root {
     --tw-body-font-family: 'Figtree', 'sans-serif';
@@ -19,6 +18,18 @@
     --light: 242, 242, 247;
     --dark: 33, 37, 41;
     --gray-800: 49, 58, 70;
+
+    --oxford-blue-50: 237 239 243;
+    --oxford-blue-100: 228 232 236;
+    --oxford-blue-200: 203 211 221;
+    --oxford-blue-300: 166 180 196;
+    --oxford-blue-400: 123 145 167;
+    --oxford-blue-500: 92 114 138;
+    --oxford-blue-600: 73 90 111;
+    --oxford-blue-700: 58 72 89;
+    --oxford-blue-800: 55 67 83;
+    --oxford-blue-900: 48 57 69;
+    --oxford-blue-950: 33 39 49;
 
     --tw-body-bg: #f2f2f7;
     --tw-body-color: #6c757d;

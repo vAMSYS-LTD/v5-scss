@@ -3,10 +3,10 @@
         @apply min-w-full divide-y divide-gray-200 dark:divide-gray-700;
 
         thead {
-            @apply bg-gray-50 dark:bg-gray-600;
+            @apply bg-gray-100 dark:bg-gray-800;
 
             th {
-                @apply px-4 py-4 text-start text-sm font-medium text-gray-500 dark:text-gray-200;
+                @apply px-4 py-4 text-start text-sm font-bold  text-gray-500 dark:text-slate-400;
             }
         }
 
@@ -14,10 +14,18 @@
             @apply divide-y divide-gray-200 dark:divide-gray-700;
 
             tr {
-                @apply bg-gray-50 dark:bg-gray-900;
+                @apply bg-white dark:bg-oxford-blue-700;
 
                 td {
-                    @apply px-4 py-4 text-sm text-gray-500 dark:text-gray-200;
+                    @apply px-4 py-4 text-sm text-gray-500 dark:text-gray-400;
+                }
+            }
+
+            tr:nth-child(even) {
+                @apply bg-gray-50 dark:bg-oxford-blue-800;
+
+                td {
+                    @apply px-4 py-4 text-sm text-gray-500 dark:text-gray-400;
                 }
             }
         }
