@@ -51,8 +51,9 @@
 }
 
 .choices[data-type*=select-one]::after {
-    content: "\ea4e";
-    font-family: remixicon;
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
     @apply text-lg w-auto h-auto absolute end-2.5 top-1/2 -translate-y-1/2 pointer-events-none mt-0 transition-all border-none;
 }
 

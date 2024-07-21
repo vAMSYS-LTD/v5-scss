@@ -3,11 +3,25 @@
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
 }
 
+.fi-section {
+    @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
+}
+
 .fi-ta-header {
     @apply py-3 px-6 border-b border-gray-200 dark:border-gray-700 #{!important};
 }
 
+.fi-ta-header-toolbar {
+    @apply py-3 px-6 border-b border-gray-200 dark:border-gray-700 #{!important};
+    .fi-btn-label {
+        @apply text-gray-500 dark:text-slate-400 #{!important};
+    }
+}
+
 .fi-ta-header-heading {
+    @apply text-gray-500 dark:text-slate-400 #{!important};
+}
+.fi-section-header-heading {
     @apply text-gray-500 dark:text-slate-400 #{!important};
 }
 
@@ -70,8 +84,10 @@
     @apply text-gray-500 dark:text-slate-400 #{!important};
 }
 
-.fi-btn-label {
-    @apply text-gray-500 dark:text-slate-400 #{!important};
+.fi-pagination {
+    .fi-btn {
+        @apply btn border-secondary text-secondary hover:bg-secondary hover:text-white #{!important};
+    }
 }
 
 .fi-pagination-item-label {
@@ -94,4 +110,16 @@
     span {
         @apply text-gray-500 dark:text-slate-400 #{!important};
     }
+}
+.fi-ta-actions {
+    button {
+        @apply rounded #{!important};
+    }
+}
+
+[data-mode="dark"] .choices__list--multiple .choices__item {
+    --tw-text-opacity:1;
+    --tw-ring-color:rgba(var(--primary-400),0.3);
+    background-color:rgba(var(--primary-400),.1);
+    color:rgba(var(--primary-400),var(--tw-text-opacity))
 }

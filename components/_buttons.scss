@@ -4,7 +4,7 @@
 
 @layer base {
     .btn {
-        @apply px-4 py-2 text-sm inline-flex items-center justify-center text-center rounded border border-transparent transition-all duration-300 font-medium;
+        @apply shadow px-4 py-2 text-sm inline-flex items-center justify-center text-center rounded border border-transparent transition-all duration-300 font-medium;
 
         &.btn-lg {
             @apply px-5 py-3 text-base;
@@ -19,3 +19,7 @@
         }
     }
 }
+
+//.btn-success {
+//    @apply bg-success text-white hover:bg-success-600 dark:bg-success-600 dark:hover:bg-success-700;
+//}

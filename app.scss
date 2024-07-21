@@ -20,6 +20,7 @@
 @import "components/print";
 @import "components/helper";
 @import "components/tables";
+@import "components/alerts";
 
 // Plugins (Extended UI Components)
 @import "plugins/simplebar";
@@ -31,7 +32,7 @@
 @import "plugins/apexcharts";
 
 // Advanced Form Plugins
-@import "plugins/choices";
+//@import "plugins/choices";
 @import "plugins/dropzone";
 @import "plugins/range-slider";
 @import "plugins/flatpicker";

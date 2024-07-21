@@ -1,0 +1,25 @@
+.custom-alert {
+    @apply card mb-4 me-0 border-0 p-[1.25rem];
+
+    .custom-alert-icon {
+        @apply w-[3.125rem] h-[3.125rem];
+    }
+    .btn-close {
+        @apply p-0 mb-4;
+    }
+    &.alert-primary {
+        @apply border-t-[0.313rem] border-solid border-primary;
+    }
+    &.alert-success {
+        @apply border-t-[0.313rem] border-solid border-success;
+    }
+    &.alert-warning {
+        @apply border-t-[0.313rem] border-solid border-warning;
+    }
+    &.alert-danger {
+        @apply border-t-[0.313rem] border-solid border-danger;
+        p { // For emphasis
+            @apply text-black dark:text-white;
+        }
+    }
+}

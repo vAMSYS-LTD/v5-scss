@@ -7,7 +7,7 @@
     height: 32px;
     width: 32px;
     backdrop-filter: blur(2px);
-    font-family: remixicon;
+    font-family: "Font Awesome 5 Pro";
     font-size: 28px;
     @apply bg-primary/20 text-primary;
     transition: all 0.3s ease;
@@ -19,12 +19,14 @@
 
 .swiper-button-prev {
     &::before {
-        content: "\EA64";
+        content: "\f0d9";
+        font-weight: 900;
     }
 }
 .swiper-button-next {
     &::before {
-        content: "\EA6E";
+        content: "\f0da";
+        font-weight: 900;
     }
 }
 
