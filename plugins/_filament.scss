@@ -7,6 +7,10 @@
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
 }
 
+.fi-modal-window{
+    @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
+}
+
 .fi-ta-header {
     @apply py-3 px-6 border-b border-gray-200 dark:border-gray-700 #{!important};
 }
@@ -15,6 +19,14 @@
     @apply py-3 px-6 border-b border-gray-200 dark:border-gray-700 #{!important};
     .fi-btn-label {
         @apply text-gray-500 dark:text-slate-400 #{!important};
+    }
+}
+
+.fi-ta-actions {
+    .fi-btn-color-danger {
+        .fi-btn-label {
+            @apply text-white #{!important};
+        }
     }
 }
 
@@ -122,4 +134,20 @@
     --tw-ring-color:rgba(var(--primary-400),0.3);
     background-color:rgba(var(--primary-400),.1);
     color:rgba(var(--primary-400),var(--tw-text-opacity))
+}
+[data-mode="dark"] .choices__list--single .choices__item {
+    --tw-text-opacity:1;
+    color:rgb(255 255 255/var(--tw-text-opacity))
+}
+
+[data-mode="dark"] .filepond--root {
+    --tw-ring-color:hsla(0,0%,100%,.2);
+    background-color:hsla(0,0%,100%,.05)
+}
+
+[data-mode="dark"] .choices__list--dropdown,
+[data-mode="dark"] .choices__list[aria-expanded] {
+    --tw-bg-opacity:1;
+    --tw-ring-color:hsla(0,0%,100%,.1);
+    background-color:rgba(var(--gray-900),var(--tw-bg-opacity))
 }
