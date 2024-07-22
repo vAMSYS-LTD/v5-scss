@@ -1,6 +1,11 @@
 //
 // _helper.scss
 //
+#map {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust this height as needed */
+}
 
 .mapboxgl-ctrl-logo {
     display: none !important;
