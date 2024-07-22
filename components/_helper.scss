@@ -2,6 +2,10 @@
 // _helper.scss
 //
 
+.mapboxgl-ctrl-logo {
+    display: none !important;
+}
+
 [data-trigger="mouseenter"] {
     cursor: pointer;
 }
