@@ -1,0 +1,33 @@
+.map-airport-popup {
+    .title {
+        @apply font-semibold text-gray-500 dark:text-slate-400
+    }
+
+    .description {
+        @apply text-gray-500 dark:text-slate-400
+    }
+
+    .mapboxgl-popup-content {
+        @apply bg-white dark:bg-gray-800
+    }
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    @apply border-b-white dark:border-b-gray-800
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    @apply border-t-white dark:border-t-gray-800
+}
+
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    @apply border-r-white dark:border-r-gray-800
+}
+
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    @apply border-l-white dark:border-l-gray-800
+}
