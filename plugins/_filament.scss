@@ -1,4 +1,9 @@
-// Tables
+.fi-fo-wizard {
+    @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
+}
+.fi-in-tabs {
+    @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
+}
 .fi-ta-ctn {
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
 }

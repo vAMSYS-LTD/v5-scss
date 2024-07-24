@@ -10,6 +10,9 @@
     &.alert-primary {
         @apply border-t-[0.313rem] border-solid border-primary;
     }
+    &.alert-info {
+        @apply border-t-[0.313rem] border-solid border-info;
+    }
     &.alert-success {
         @apply border-t-[0.313rem] border-solid border-success;
     }
