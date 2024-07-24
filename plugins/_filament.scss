@@ -5,7 +5,7 @@
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
 }
 .fi-ta-ctn {
-    @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
+    @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit ring-0 dark:ring-0 #{!important};
 }
 
 .fi-section {
