@@ -33,16 +33,28 @@
         }
     }
 
+    .logo-box-select {
+        @apply flex;
+
+        .logo-lg {
+            @apply block;
+        }
+
+        .logo-sm {
+            @apply hidden;
+        }
+    }
+
     form {
         color: $topbar-item-color;
 
         input {
-      
+
             &::placeholder{
                 color: $topbar-item-color;
             }
         }
-        
+
     }
 }
 
@@ -53,7 +65,7 @@
     }
 }
 
-// Full Size Sidenav (Hide Sidenav | Open Sidenav with Backdrop) 
+// Full Size Sidenav (Hide Sidenav | Open Sidenav with Backdrop)
 html[data-sidenav-view="mobile"] {
     .app-header {
         .logo-box {
