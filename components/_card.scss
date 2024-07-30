@@ -10,7 +10,31 @@
         .card-header {
             @apply py-3 px-6 border-b border-gray-200 dark:border-gray-700;
         }
-    }    
+
+        &.card-primary {
+            @apply bg-primary border-primary text-white
+        }
+
+        &.card-secondary {
+            @apply bg-secondary border-secondary text-white
+        }
+
+        &.card-success {
+            @apply bg-success border-success text-white
+        }
+
+        &.card-danger {
+            @apply bg-danger border-danger text-white
+        }
+
+        &.card-warning {
+            @apply bg-warning border-warning text-white
+        }
+
+        &.card-info {
+            @apply bg-info border-info text-white
+        }
+    }
 
     .card-title {
         @apply text-base font-semibold text-gray-500 dark:text-slate-400;
