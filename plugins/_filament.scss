@@ -1,9 +1,11 @@
 .fi-fo-wizard {
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
 }
+
 .fi-in-tabs {
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
 }
+
 .fi-ta-ctn {
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit ring-0 dark:ring-0 #{!important};
 }
@@ -12,7 +14,7 @@
     @apply bg-white dark:bg-gray-800 shadow rounded-md h-fit #{!important};
 }
 
-.fi-modal-window{
+.fi-modal-window {
     @apply bg-white dark:bg-gray-800 shadow rounded-md #{!important};
 }
 
@@ -38,6 +40,7 @@
 .fi-ta-header-heading {
     @apply text-gray-500 dark:text-slate-400 #{!important};
 }
+
 .fi-section-header-heading {
     @apply text-gray-500 dark:text-slate-400 #{!important};
 }
@@ -59,11 +62,13 @@
                 @apply bg-gray-100 dark:bg-gray-800 #{!important};
             }
         }
+
         tbody {
             @apply divide-y divide-gray-200 dark:divide-gray-700 #{!important};
             tr {
                 @apply bg-white dark:bg-oxford-blue-700 #{!important};
             }
+
             tr:nth-child(even) {
                 @apply bg-gray-50 dark:bg-oxford-blue-800 #{!important};
             }
@@ -91,6 +96,7 @@
         @apply text-gray-500 dark:text-slate-400 #{!important};
     }
 }
+
 .fi-fo-field-wrp-label {
     span {
         @apply text-gray-500 dark:text-gray-400 #{!important};
@@ -128,11 +134,21 @@
         @apply text-gray-500 dark:text-slate-400 #{!important};
     }
 }
+
 .fi-ac-action {
     @apply rounded #{!important};
 }
+
 .fi-ta-actions {
     button {
         @apply rounded #{!important};
     }
+}
+
+.choices__placeholder.choices__item:is(.dark *) {
+    @apply text-slate-400 #{!important};
+}
+
+.choices__list--dropdown:is(.dark *), .choices__list[aria-expanded]:is(.dark *) {
+    @apply dark:bg-oxford-blue-700 #{!important};
 }
