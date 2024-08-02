@@ -39,3 +39,23 @@
 .btn-info {
     @apply bg-info text-white hover:bg-info-600 dark:bg-info-600 dark:hover:bg-info-700;
 }
+
+.btn-primary-outline {
+    @apply border-primary text-gray-500 dark:text-slate-400 hover:text-white hover:dark:text-black hover:bg-primary-600 rounded ring-0 #{!important};
+}
+
+.btn-success-outline {
+    @apply border-success text-gray-500 dark:text-slate-400 hover:text-white hover:dark:text-black hover:bg-success-600 rounded ring-0 #{!important};
+}
+
+.btn-warning-outline {
+    @apply border-warning text-gray-500 dark:text-slate-400 hover:text-black hover:dark:text-black hover:bg-warning rounded ring-0 #{!important};
+}
+
+.btn-danger-outline {
+    @apply border-danger text-gray-500 dark:text-slate-400 hover:text-white hover:dark:text-black hover:bg-danger rounded ring-0 #{!important};
+}
+
+.btn-info-outline {
+    @apply border-info text-gray-500 dark:text-slate-400 hover:text-white hover:dark:text-black hover:bg-info rounded ring-0 #{!important};
+}
