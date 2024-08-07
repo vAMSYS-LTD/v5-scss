@@ -18,6 +18,10 @@
     @apply bg-white dark:bg-gray-800 shadow rounded-md #{!important};
 }
 
+.fi-modal-header {
+    @apply bg-white dark:bg-gray-800 shadow rounded-md #{!important};
+}
+
 .fi-ta-header {
     @apply py-3 px-6 border-b border-gray-200 dark:border-gray-700 #{!important};
 }
