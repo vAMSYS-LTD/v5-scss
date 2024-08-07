@@ -61,3 +61,8 @@ li.menu-item a:hover {
     @apply text-danger text-xs mt-1.5;
 }
 
+.event-description {
+    table {
+        @apply w-full;
+    }
+}

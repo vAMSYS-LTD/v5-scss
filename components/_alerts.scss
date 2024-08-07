@@ -28,7 +28,7 @@
 }
 
 .alert {
-    @apply text-sm rounded py-3 px-5 mb-4;
+    @apply text-sm rounded py-3 px-5;
     &.alert-primary {
         @apply bg-primary/10 text-primary border border-primary/20;
     }
