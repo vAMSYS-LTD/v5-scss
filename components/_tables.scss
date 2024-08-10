@@ -1,6 +1,6 @@
 .striped-table {
     table {
-        @apply min-w-full divide-y divide-gray-200 dark:divide-gray-700;
+        @apply w-full divide-y divide-gray-200 dark:divide-gray-700 overflow-auto #{!important};;
 
         thead {
             @apply bg-gray-100 dark:bg-gray-800;
