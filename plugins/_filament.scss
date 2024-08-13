@@ -156,3 +156,9 @@
 .choices__list--dropdown:is(.dark *), .choices__list[aria-expanded]:is(.dark *) {
     @apply dark:bg-oxford-blue-700 #{!important};
 }
+
+.fi-ta-col-wrp {
+    a:hover {
+        text-decoration: none;
+    }
+}
