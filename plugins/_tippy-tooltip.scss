@@ -9,12 +9,12 @@
 }
 
 .light-theme {
-    @apply text-slate-900 dark:text-slate-200 shadow bg-white;
+    @apply text-slate-900 dark:text-slate-200 shadow;
 
     .tippy-backdrop {
         @apply bg-white;
     }
-    
+
     .tippy-roundarrow {
         fill: #FFF;
     }
@@ -47,7 +47,7 @@
                     border-left: 7px solid transparent;
                 }
             }
-        }    
+        }
     }
     &[x-placement^=left] {
         .tippy-tooltip{
