@@ -54,7 +54,7 @@
             >.menu-text {
                 font-size: $menu-item-font-size;
                 line-height: $menu-item-font-size;
-                @apply whitespace-nowrap transition-all;
+                @apply transition-all;
             }
 
             >.menu-arrow {
