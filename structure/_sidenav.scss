@@ -38,7 +38,7 @@
             color: $menu-item-color;
             gap: $menu-link-item-gap;
             padding: $menu-link-padding-y $menu-link-padding-x;
-            @apply relative flex items-center transition-all whitespace-nowrap rounded-lg;
+            @apply relative flex items-center transition-all rounded-lg;
 
             >.menu-icon {
                 font-size: $menu-item-icon-size;
