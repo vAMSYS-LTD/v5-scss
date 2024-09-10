@@ -15,7 +15,7 @@
 }
 
 .fi-modal-window {
-    @apply bg-white dark:bg-gray-800 shadow rounded-md #{!important};
+    @apply bg-white dark:bg-gray-800 shadow rounded-md overflow-auto #{!important};
 }
 
 .fi-modal-header {
