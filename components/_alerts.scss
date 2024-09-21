@@ -30,28 +30,28 @@
 .alert {
     @apply text-sm rounded py-3 px-5;
     &.alert-primary {
-        @apply bg-primary/10 text-primary border border-primary/20;
+        @apply bg-primary/10 text-primary border border-primary/20 #{!important};
     }
     &.alert-secondary {
-        @apply bg-secondary/10 text-secondary border border-secondary/20;
+        @apply bg-secondary/10 text-secondary border border-secondary/20 #{!important};
     }
     &.alert-success {
-        @apply bg-success/10 text-success border border-success/20;
+        @apply bg-success/10 text-success border border-success/20 #{!important};
     }
     &.alert-error {
-        @apply bg-danger/10 text-danger border border-danger/20;
+        @apply bg-danger/10 text-danger border border-danger/20 #{!important};
     }
     &.alert-warning {
-        @apply bg-warning border-warning text-black;
+        @apply bg-warning border-warning text-black #{!important};
     }
     &.alert-info {
-        @apply bg-info border-info text-white;
+        @apply bg-info border-info text-white #{!important};
     }
     &.alert-light {
-        @apply bg-light border-light text-slate-900;
+        @apply bg-light border-light text-slate-900 #{!important};
     }
     &.alert-dark {
-        @apply bg-dark border-dark text-white;
+        @apply bg-dark border-dark text-white #{!important};
     }
 }
 
@@ -69,7 +69,7 @@
     &.badge-error {
         @apply bg-danger/10 text-danger border border-danger/20;
     }
-    &.abadge-warning {
+    &.badge-warning {
         @apply bg-warning border-warning text-black;
     }
     &.badge-info {
