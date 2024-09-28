@@ -41,6 +41,9 @@
     &.alert-error {
         @apply bg-danger/10 text-danger border border-danger/20 #{!important};
     }
+    &.alert-warning-lite {
+        @apply bg-warning/10 border-warning text-black #{!important};
+    }
     &.alert-warning {
         @apply bg-warning border-warning text-black #{!important};
     }

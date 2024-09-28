@@ -67,16 +67,16 @@
             }
         }
 
-        tbody {
-            @apply divide-y divide-gray-200 dark:divide-gray-700 #{!important};
-            tr {
-                @apply bg-white dark:bg-oxford-blue-700 #{!important};
-            }
-
-            tr:nth-child(even) {
-                @apply bg-gray-50 dark:bg-oxford-blue-800 #{!important};
-            }
-        }
+        //tbody {
+        //    @apply divide-y divide-gray-200 dark:divide-gray-700;
+        //    tr {
+        //        @apply bg-white dark:bg-oxford-blue-700;
+        //    }
+        //
+        //    tr:nth-child(even) {
+        //        @apply bg-gray-50 dark:bg-oxford-blue-800;
+        //    }
+        //}
     }
 }
 
