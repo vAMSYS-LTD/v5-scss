@@ -83,3 +83,14 @@ li.menu-item a:hover {
 .zammad-form > .btn {
     @apply border-success text-gray-500 dark:text-slate-400 hover:text-white hover:dark:text-black hover:bg-success-600 rounded ring-0 #{!important};
 }
+
+.notam-must-read {
+    @apply bg-danger/10 #{!important}
+}
+.notam-unread {
+    @apply bg-warning/10 #{!important}
+}
+
+.notam-read {
+
+}
