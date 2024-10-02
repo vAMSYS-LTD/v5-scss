@@ -6,7 +6,7 @@
 .logo-box {
     height: $topbar-height;
     color: $menu-item-color;
-    @apply sticky top-0 flex items-center justify-center transition-all duration-300 z-[1];
+    @apply sticky top-0 flex items-center justify-center transition-all duration-300 z-[2];
 
     .logo-sm {
         display: none;

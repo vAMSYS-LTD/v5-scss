@@ -5,7 +5,7 @@
 .app-header {
     height: $topbar-height;
     background: $topbar-bg;
-    @apply sticky top-0 shadow z-[1];
+    @apply sticky top-0 shadow z-[2];
 
     .nav-link {
         color: $topbar-item-color;
